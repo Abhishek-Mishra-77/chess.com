@@ -3,9 +3,165 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Software Testing Result 2024</title>
+    <style>
+      .main {
+        font-family: Arial, sans-serif;
+        background-color: #f1f3f5;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      h2 {
+        color: #343a40;
+        text-align: center;
+      }
+      .result-card {
+        position: relative;
+        background-color: #ffffff;
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        margin: 10px 0;
+        padding: 20px;
+        width: 300px;
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+      .result-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      }
+      .result-card span {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 10px;
+        color: #007bff;
+      }
+      .result-card p {
+        margin: 5px 0;
+      }
+      .remark {
+        margin-top: 10px;
+        font-style: italic;
+        color: #6c757d;
+      }
+      .result-failed {
+        color: #dc3545;
+        font-weight: bold;
+      }
+      .result-passed {
+        color: #28a745;
+        font-weight: bold;
+      }
+      .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .header img {
+        width: 100px;
+        margin-bottom: 10px;
+      }
+      .bird {
+        position: absolute;
+        top: -20px;
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        animation: fly 4s linear infinite;
+      }
+      .bird-failed {
+        background-image: url("https://example.com/failed-bird.png"); /* Replace with your failed bird image URL */
+      }
+      .bird-passed {
+        background-image: url("https://example.com/passed-bird.png"); /* Replace with your passed bird image URL */
+      }
+      @keyframes fly {
+        0% {
+          transform: translateX(-100px) translateY(0);
+        }
+        50% {
+          transform: translateX(150px) translateY(-50px);
+        }
+        100% {
+          transform: translateX(400px) translateY(0);
+        }
+      }
+    </style>
   </head>
   <body>
-    <h1>Index Page</h1>
+    <div class="header">
+      <img
+        src="https://cdn.bitrix24.com/b1291759/bitrix24/4ee/4ee679b9e3bf7cd2da854131528eb192/logo_rapI854J.png"
+        alt="Company Logo"
+      />
+      <h2>Software Testing Result 2024</h2>
+    </div>
+    <h1>Result time out.....</h1>
+    <!-- <div class="main">
+      <div class="result-card">
+        <span>Email : tara.c@omr.co.in</span>
+        <p>Name : Tara Chand</p>
+        <p>Marks Obtained : 11</p>
+        <p class="remark">
+          Remark : Dear Tara, your performance is below average. Kindly
+          re-attempt the test. We have found you cheated during the test.
+        </p>
+        <p class="result-failed">Result : Failed</p>
+        <div class="bird bird-failed"></div>
+      </div>
+      <div class="result-card">
+        <span>Email : vineet.k@omr.co.in</span>
+        <p>Name : Vineet Kumar</p>
+        <p>Marks Obtained : 22</p>
+        <p class="remark">
+          Remark : Dear Vineet, your performance is excellent. Kindly collect
+          your award from the HR team.
+        </p>
+        <p class="result-passed">Result : Passed</p>
+        <div class="bird bird-passed"></div>
+      </div>
+      <div class="result-card">
+        <span>Email : vipin.g@omr.co.in</span>
+        <p>Name : Vipin Gautam</p>
+        <p>Marks Obtained : 18</p>
+        <p class="remark">
+          Remark : Dear Vipin, your performance is excellent. Kindly collect
+          your award from the HR team.
+        </p>
+        <p class="result-passed">Result : Passed</p>
+        <div class="bird bird-passed"></div>
+      </div>
+      <div class="result-card">
+        <span>Email : amit.l@omr.co.in</span>
+        <p>Name : Amit Lodhi Rajput</p>
+        <p>Marks Obtained : 14</p>
+        <p class="remark">
+          Remark : Dear Amit, your performance is below average. Kindly
+          re-attempt the test. We have found you cheated during the test.
+        </p>
+        <p class="result-failed">Result : Failed</p>
+        <div class="bird bird-failed"></div>
+      </div>
+      <div class="result-card">
+        <span>Email : sunder.r@omr.co.in</span>
+        <p>Name : Sundar Singh</p>
+        <p>Marks Obtained : 34</p>
+        <p class="remark">
+          Remark : Dear Sundar, your performance is excellent. Kindly collect
+          your award from the HR team.
+        </p>
+        <p class="result-passed">Result : Passed</p>
+        <div class="bird bird-passed"></div>
+      </div>
+    </div> -->
+    <script>
+      // Optional: Add JavaScript if needed for dynamic functionalities
+    </script>
   </body>
 </html>
